@@ -9,6 +9,7 @@ require (
 	github.com/edgexfoundry/core-domain-go v0.0.0-20180130224812-7acdb6490aba // indirect
 	github.com/edgexfoundry/support-domain-go v0.0.0-20171226130833-c5112cbbc50e // indirect
 	github.com/edgexfoundry/support-logging-client-go v0.0.0-20180104221006-6048b3cf4525 // indirect
+	github.com/go-resty/resty/v2 v2.4.0
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/hashicorp/consul/api v1.8.1 // indirect
 	github.com/pebbe/zmq4 v1.2.2 // indirect

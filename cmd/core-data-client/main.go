@@ -27,7 +27,7 @@ func main() {
 
 	cli, err := corecli.NewDBClient(dbConfig)
 	if err != nil {
-		log.Fatalf("fail to generate client fot the core-data service: %v", err)
+		log.Fatalf("fail to generate client for the core-data service: %v", err)
 	}
 
 	vds, err := cli.ValueDescriptors()
