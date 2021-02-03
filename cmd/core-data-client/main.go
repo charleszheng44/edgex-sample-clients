@@ -14,6 +14,8 @@ func main() {
 	userName := flag.String("user", "", "TODO...")
 	passwd := flag.String("passwd", "", "TODO...")
 
+	flag.Parse()
+
 	dbConfig := corecli.DBConfiguration{
 		Host:         *host,
 		Port:         *port,
